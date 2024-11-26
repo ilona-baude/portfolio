@@ -1,0 +1,72 @@
+@font-face {
+    font-family: glitch-goblin;
+    src: url(fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf);
+}
+@font-face {
+    font-family: hackout;
+    src: url(fonts/h-hackout-font/Hackout-Eaw5j.otf)
+}
+html{
+    height:100%;
+}
+body{
+    background:url(img/a8289416a088856e035ccd38f849ef43.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+}
+nav{
+    ul{
+        list-style: none;
+        display:flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        li{
+            margin: 3px 2% 0 2%;
+            a{
+                color: aliceblue;
+                border-style: double white;
+                text-decoration: none;
+                font-size: large;
+                font-family: hackout;
+            }
+        }
+    }
+}
+main{
+    display:flex;
+    justify-content: center;
+    article{
+        text-align:center;
+        margin:7%;
+        padding: 10px 5%;
+        h1{
+            font-size: 2cm;
+            font-family: glitch-goblin;
+            margin-bottom:10px;
+        }
+        p{
+            font-size: xx-large;
+            font-family: hackout;
+            text-shadow: 2px 3px rgb(16, 59, 24);
+        }
+    }
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    p{
+        margin: 0 20px;
+        a{
+            text-decoration: none;
+            color:aliceblue
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+    }
+}
