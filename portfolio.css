@@ -10,8 +10,9 @@ html{
     height:100%;
 }
 body{
-    background:url(img/a8289416a088856e035ccd38f849ef43.gif);
+    background:url(img/background.gif);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color:aliceblue;
 }
@@ -44,11 +45,12 @@ main{
             font-size: 2cm;
             font-family: glitch-goblin;
             margin-bottom:45px;
+            text-shadow: 2px 3px rgb(32, 16, 59);
         }
         p{
             font-size: xx-large;
             font-family: hackout;
-            text-shadow: 2px 3px rgb(16, 59, 24);
+            text-shadow: 2px 3px rgb(32, 16, 59);
             margin: 5px;
         }
     }
